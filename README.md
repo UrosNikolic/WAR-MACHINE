@@ -3,7 +3,7 @@
 
 ![War Machine Logo](./docs/assets/war-machine-package-icon.jpg)
 
-##### War Machine is a micro-frontend tool that enables you to extend your current theme with other micro apps, creating a true war machine.
+#### War Machine is a micro-frontend tool that enables you to extend your current theme with other micro apps, creating a true war machine.
 
 ---
 
@@ -26,7 +26,7 @@ If you do not want to make changes to war machine project and just want to use i
 
 1. When it is published you can just install it
 ```
-npm install
+npm install war-machine-package
 ```
 2. Reference project on BitBucket in your package.json
 ```
@@ -38,6 +38,13 @@ npm install
 ### How to create plugin and load it in your app
 
 Currently this has been tested  with React but technically it can be used with Vue, Angualr or any other SPA framework.
+
+#### How does it work?
+It is really simple.  
+If you think about it every SPA is bundled with webpack into js modules and css stylesheets, client then just request
+those files and executes them, rendering the app in the browser.  
+What we did is we requested those files manually, executed them and rendered the app inside of an element on the page.
+Making essentially one SPA consist of many others aka Microfrontends. 
 
 #### Creating a plugin
 
