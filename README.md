@@ -59,7 +59,7 @@ Hence the term "plugin".
 
 **How to create a plugin app:**
 
-First create React app
+First create a react app.
 
 index.js should look like this:
 ```
@@ -71,10 +71,11 @@ if (window.location.port === '3000') {
     global['pluginName'] = App
 }
 ```
-If you are developing locally, you can still use and develop this app separately.
-If it is ran on port 3000(or any port you set) it will render the app normally if not
-it will assign the app to the global object to be executed when we load it in out theme.
-in your main.js
+If you are developing locally, you can still use and develop this app separately.  
+If it is ran on port 3000(or any port you set) it will render the app normally and if not
+it will assign the app to the global object to be executed when we load it in out theme.   
+
+In your main.js
 ```
 export default (element) => {
     render((
@@ -84,12 +85,12 @@ export default (element) => {
     )
 }
 ```
-in your main.js you will render your app and attach it to element passed you passed in your index.js
+In your main.js you will render your app and attach it to element passed you passed in your index.js
 
 
 **How to use plugin in your theme:**
 
-In the component you want to render the plugin add section element with class or id of the plugin name.
+In the component you want to render the plugin add section element with class or id of the plugin name. 
 On componentDidMount call warMachine with element and url where your app is located.
 ```
 import warMachine from 'war-machine-package'
@@ -122,5 +123,7 @@ class Index extends React.Component {
 ```
 
 This will call our plugin app and load it in the section element.
+![War Machine Logo](./docs/assets/demo.png)
+
 Woala Plugin system in SPAs!!!  
 **Fuck Wordpress**
