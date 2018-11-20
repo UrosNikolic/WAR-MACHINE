@@ -6,7 +6,7 @@
 #### War Machine is a micro-frontend tool that enables you to extend your current theme with other micro apps, creating a true war machine.
 
 ---
-* [How to develop locally?](#####How-to-use-for-local-development)
+* [How to develop locally?](#how-to-use-for-local-development)
 ---
 
 ##### How to use for local development
