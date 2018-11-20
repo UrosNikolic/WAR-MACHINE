@@ -127,3 +127,12 @@ This will call our plugin app and load it in the section element.
 
 Woala Plugin system in SPAs!!!  
 **Fuck Wordpress**
+
+
+### ToDO 
+- Reading of apps from yaml file 
+- Documentation for production development process
+- Add documentation for microfrontend communication
+- Add functionality that location is read from the yaml and app name automatically will be converted to a class  
+ so you can load warMachine('Blog') and then plugin looks for an element named  
+ war-machine-blog and location for it in yaml file 
