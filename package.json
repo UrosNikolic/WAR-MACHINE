@@ -1,0 +1,25 @@
+{
+  "name": "war-machine-package",
+  "version": "1.0.0",
+  "description": "War Machine is a micro-frontend tool that enables you to extend your current theme with other micro apps, creating a true war machine.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://MeanUros@bitbucket.org/MeanUros/war-machine-package.git"
+  },
+  "keywords": [
+    "microfrontend",
+    "frontend",
+    "javascript"
+  ],
+  "author": "Uros Nikolic",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/MeanUros/war-machine-package#readme",
+  "dependencies": {}
+}
