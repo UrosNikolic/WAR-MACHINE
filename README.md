@@ -43,8 +43,8 @@ Currently this has been tested  with React but technically it can be used with V
 It is really simple.  
 If you think about it every SPA is bundled with webpack into js modules and css stylesheets, client then just request
 those files and executes them, rendering the app in the browser.  
-What we did is we requested those files manually, executed them and rendered the app inside of an element on the page.
-Making essentially one SPA consist of many others aka Microfrontends. 
+What we did is we requested those files manually, executed them and rendered the app inside of an element on the page.  
+Making essentially one SPA consist of many others aka **Microfrontends**. 
 
 #### Creating a plugin
 
