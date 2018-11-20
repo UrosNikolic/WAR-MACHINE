@@ -135,4 +135,7 @@ Woala Plugin system in SPAs!!!
 - Add documentation for microfrontend communication
 - Add functionality that location is read from the yaml and app name automatically will be converted to a class  
  so you can load warMachine('Blog') and then plugin looks for an element named  
- war-machine-blog and location for it in yaml file 
+ war-machine-blog and location for it in yaml file and make this optionals
+- add npm ignore, nvmrc etc.
+- add tests
+
