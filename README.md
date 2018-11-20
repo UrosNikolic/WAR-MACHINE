@@ -130,6 +130,7 @@ Woala Plugin system in SPAs!!!
 
 
 ### ToDO 
+- improve and test style loading 
 - Reading of apps from yaml file 
 - Documentation for production development process
 - Add documentation for microfrontend communication
@@ -138,4 +139,5 @@ Woala Plugin system in SPAs!!!
  war-machine-blog and location for it in yaml file and make this optionals
 - add npm ignore, nvmrc etc.
 - add tests
+
 
