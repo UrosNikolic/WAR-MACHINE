@@ -1,6 +1,6 @@
 /**
  * WAR MACHINE MODULE
- * 
+ *
  * This package is used for composing micro-fronteds.
  * It gets your apps javascript and styles
  * attaches it to the dom element you provided and your app gets
@@ -74,7 +74,7 @@ function loadScript(url, callback){
     document.getElementsByTagName('head')[0].appendChild(script)
 }
 
-function loadStyle(url, callback){
+function loadStyle(url){
     const link = document.createElement('link')
     link.type = 'text/css'
     link.rel = 'stylesheet'
